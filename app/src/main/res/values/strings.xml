@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirstApplication</string>
+    <string name="order_now">Order Now</string>
+    <string name="ordered_bev">You Ordered</string>
+</resources>
