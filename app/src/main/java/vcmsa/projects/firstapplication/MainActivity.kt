@@ -86,7 +86,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
 
-
+//tester
     override fun onClick(v: View?) {
         when (v?.id){
 
