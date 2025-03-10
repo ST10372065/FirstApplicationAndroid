@@ -2,13 +2,9 @@ package vcmsa.projects.firstapplication
 
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
-import android.widget.ImageView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import vcmsa.projects.firstapplication.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -72,7 +68,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding.imgSb6.setOnClickListener {
             Toast.makeText(this, "Black Forest Frapp", Toast.LENGTH_SHORT).show()
         }*/
-
         //shorter way of doing the code
         binding.imgSb1.setOnClickListener(this)
         binding.imgSb2.setOnClickListener(this)
